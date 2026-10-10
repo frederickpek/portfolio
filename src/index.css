@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --color-surface: #0c0f14;
+  --color-surface-raised: #121820;
+  --color-surface-overlay: #1a222d;
+  --color-border: #2a3544;
+  --color-muted: #8b9cb0;
+  --color-foreground: #e8eef6;
+  --color-accent: #5eead4;
+  --color-accent-dim: #2dd4bf;
+  --color-github: #39d353;
+  --color-leetcode: #ffa116;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply m-0 min-h-svh bg-surface font-sans text-foreground;
+    background-image: radial-gradient(
+      ellipse 80% 50% at 50% -20%,
+      rgba(94, 234, 212, 0.08),
+      transparent
+    );
+  }
+
+  ::selection {
+    @apply bg-accent/25 text-foreground;
+  }
+}

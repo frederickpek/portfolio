@@ -1,0 +1,42 @@
+name: Sync portfolio data
+
+on:
+  schedule:
+    # Daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'data/repo-urls.json'
+      - 'data/project-overrides.json'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch GitHub repos & activity caches
+        run: npm run fetch-data
+        env:
+          # Default Actions token is enough for public repos (higher rate limit than anonymous).
+          # Optional: set repository secret GH_PAT for a personal PAT with broader access.
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          LEETCODE_USERNAME: ${{ vars.LEETCODE_USERNAME }}
+
+      - name: Commit updated JSON if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: refresh portfolio data'
+          file_pattern: public/data/* public/activity/*
