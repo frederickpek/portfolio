@@ -53,6 +53,10 @@ async function fetchProject(slug, overrides = {}) {
     createdAt: repo.created_at,
     isFork: repo.fork,
     featured: overrides.featured ?? false,
+    spotlight: overrides.spotlight ?? false,
+    screenshots: Array.isArray(overrides.screenshots)
+      ? overrides.screenshots.filter((s) => s?.src?.trim())
+      : [],
   }
 }
 

@@ -33,3 +33,50 @@
     @apply bg-accent/25 text-foreground;
   }
 }
+
+/* Next project: main stage slides in from the right peek */
+@keyframes spotlight-enter-right {
+  from {
+    opacity: 0.35;
+    transform: translateX(42%) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* Previous project: slides in from the left peek */
+@keyframes spotlight-enter-left {
+  from {
+    opacity: 0.35;
+    transform: translateX(-42%) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes spotlight-crossfade {
+  from {
+    opacity: 0.55;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .animate-spotlight-enter-right {
+    animation: spotlight-enter-right 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-spotlight-enter-left {
+    animation: spotlight-enter-left 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-spotlight-crossfade {
+    animation: spotlight-crossfade 0.22s ease-out both;
+  }
+}

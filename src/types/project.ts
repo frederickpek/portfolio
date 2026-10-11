@@ -1,11 +1,21 @@
 export type RepoSlug = `${string}/${string}`
 
+export type ProjectScreenshot = {
+  /** Path under `public/` (e.g. showcase/trueshot/compare.png) */
+  src: string
+  alt?: string
+}
+
 export type ProjectOverrides = {
   /** Live demo URL (overrides GitHub homepage field) */
   deployUrl?: string
   title?: string
   description?: string
   featured?: boolean
+  /** Show in the spotlight carousel above the project grid */
+  spotlight?: boolean
+  /** Images committed under public/ — first entry is the carousel hero per project */
+  screenshots?: ProjectScreenshot[]
   /** Hide from the grid without removing from config */
   hidden?: boolean
 }
@@ -23,6 +33,8 @@ export type Project = {
   createdAt: string
   isFork: boolean
   featured: boolean
+  spotlight: boolean
+  screenshots: ProjectScreenshot[]
   loading?: boolean
   error?: string
 }

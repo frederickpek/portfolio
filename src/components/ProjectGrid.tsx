@@ -1,5 +1,6 @@
 import { useProjects } from '../hooks/useProjects'
 import { ProjectCard } from './ProjectCard'
+import { ProjectSpotlight } from './ProjectSpotlight'
 
 export function ProjectGrid() {
   const { projects, loading, error } = useProjects()
@@ -31,11 +32,14 @@ export function ProjectGrid() {
           ))}
         </div>
       ) : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project) => (
-            <ProjectCard key={project.slug} project={project} />
-          ))}
-        </div>
+        <>
+          <ProjectSpotlight projects={projects} />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {projects.map((project) => (
+              <ProjectCard key={project.slug} project={project} />
+            ))}
+          </div>
+        </>
       )}
     </section>
   )

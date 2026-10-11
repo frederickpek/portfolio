@@ -1,5 +1,71 @@
 {
   "frederickpek/trueshot": {
-    "deployUrl": "https://frederickpek.github.io/trueshot"
+    "deployUrl": "https://frederickpek.github.io/trueshot",
+    "featured": true,
+    "spotlight": true,
+    "screenshots": [
+      {
+        "src": "showcase/trueshot/compare.png",
+        "alt": "Team comparison view"
+      },
+      {
+        "src": "showcase/trueshot/elo.png",
+        "alt": "Elo rankings"
+      },
+      {
+        "src": "showcase/trueshot/match.png",
+        "alt": "Match detail"
+      },
+      {
+        "src": "showcase/trueshot/player.png",
+        "alt": "Player profile"
+      },
+      {
+        "src": "showcase/trueshot/upcoming.png",
+        "alt": "Upcoming matches"
+      }
+    ]
+  },
+  "frederickpek/lace": {
+    "deployUrl": "https://frederickpek.github.io/lace/",
+    "spotlight": true,
+    "screenshots": [
+      {
+        "src": "showcase/lace/scanner.png",
+        "alt": "Funding rate scanner table"
+      }
+    ]
+  },
+  "frederickpek/moirai": {
+    "deployUrl": "https://frederickpek.github.io/moirai/",
+    "spotlight": true,
+    "screenshots": [
+      {
+        "src": "showcase/moirai/matches.png",
+        "alt": "Match markets view"
+      },
+      {
+        "src": "showcase/moirai/knockout-bracket.png",
+        "alt": "Knockout bracket view"
+      }
+    ]
+  },
+  "frederickpek/me4101a": {
+    "deployUrl": "https://frederickpek.github.io/me4101a/",
+    "spotlight": true,
+    "screenshots": [
+      {
+        "src": "showcase/me4101a/dfs.png",
+        "alt": "Depth-first search visualization"
+      },
+      {
+        "src": "showcase/me4101a/bfs.png",
+        "alt": "Breadth-first search visualization"
+      },
+      {
+        "src": "showcase/me4101a/dijkstras.png",
+        "alt": "Dijkstra's algorithm visualization"
+      }
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T07:30:18.053Z",
+  "fetchedAt": "2026-10-11T08:13:37.964Z",
   "projects": [
     {
       "slug": "frederickpek/trueshot",
@@ -16,7 +16,30 @@
       "pushedAt": "2026-10-11T03:43:17Z",
       "createdAt": "2026-08-01T15:36:57Z",
       "isFork": false,
-      "featured": false
+      "featured": true,
+      "spotlight": true,
+      "screenshots": [
+        {
+          "src": "showcase/trueshot/compare.png",
+          "alt": "Team comparison view"
+        },
+        {
+          "src": "showcase/trueshot/elo.png",
+          "alt": "Elo rankings"
+        },
+        {
+          "src": "showcase/trueshot/match.png",
+          "alt": "Match detail"
+        },
+        {
+          "src": "showcase/trueshot/player.png",
+          "alt": "Player profile"
+        },
+        {
+          "src": "showcase/trueshot/upcoming.png",
+          "alt": "Upcoming matches"
+        }
+      ]
     },
     {
       "slug": "frederickpek/cses",
@@ -34,7 +57,9 @@
       "pushedAt": "2026-10-11T03:19:49Z",
       "createdAt": "2026-08-22T12:09:32Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/observable",
@@ -52,7 +77,9 @@
       "pushedAt": "2026-10-06T09:32:21Z",
       "createdAt": "2026-10-06T09:32:19Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/lace",
@@ -70,7 +97,14 @@
       "pushedAt": "2026-07-27T16:25:21Z",
       "createdAt": "2026-07-26T10:33:47Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": true,
+      "screenshots": [
+        {
+          "src": "showcase/lace/scanner.png",
+          "alt": "Funding rate scanner table"
+        }
+      ]
     },
     {
       "slug": "frederickpek/moirai",
@@ -87,7 +121,18 @@
       "pushedAt": "2026-07-26T10:22:12Z",
       "createdAt": "2026-06-07T05:29:08Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": true,
+      "screenshots": [
+        {
+          "src": "showcase/moirai/matches.png",
+          "alt": "Match markets view"
+        },
+        {
+          "src": "showcase/moirai/knockout-bracket.png",
+          "alt": "Knockout bracket view"
+        }
+      ]
     },
     {
       "slug": "frederickpek/clenow",
@@ -104,7 +149,9 @@
       "pushedAt": "2026-05-26T08:22:03Z",
       "createdAt": "2026-05-25T11:44:25Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/hail",
@@ -121,7 +168,9 @@
       "pushedAt": "2026-03-10T10:33:29Z",
       "createdAt": "2026-02-18T04:55:45Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/px",
@@ -138,7 +187,9 @@
       "pushedAt": "2025-06-26T15:53:37Z",
       "createdAt": "2025-06-23T15:32:27Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/binance-trading-bot",
@@ -155,7 +206,9 @@
       "pushedAt": "2024-10-12T21:26:24Z",
       "createdAt": "2024-10-12T20:54:01Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/crypto-dot-com",
@@ -172,7 +225,9 @@
       "pushedAt": "2024-03-03T06:37:34Z",
       "createdAt": "2023-07-03T11:48:01Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/uniswapv3",
@@ -190,7 +245,9 @@
       "pushedAt": "2024-02-13T10:03:46Z",
       "createdAt": "2024-02-13T09:48:16Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/tiger-brokers",
@@ -207,7 +264,9 @@
       "pushedAt": "2023-11-04T07:11:16Z",
       "createdAt": "2023-10-15T11:02:13Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/leetcode",
@@ -224,7 +283,9 @@
       "pushedAt": "2022-11-01T12:03:39Z",
       "createdAt": "2022-04-29T09:56:50Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/codeforces",
@@ -241,7 +302,9 @@
       "pushedAt": "2022-05-02T17:02:03Z",
       "createdAt": "2022-01-22T04:21:01Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/me4101a",
@@ -259,7 +322,22 @@
       "pushedAt": "2022-03-06T13:33:40Z",
       "createdAt": "2021-10-18T03:48:22Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": true,
+      "screenshots": [
+        {
+          "src": "showcase/me4101a/dfs.png",
+          "alt": "Depth-first search visualization"
+        },
+        {
+          "src": "showcase/me4101a/bfs.png",
+          "alt": "Breadth-first search visualization"
+        },
+        {
+          "src": "showcase/me4101a/dijkstras.png",
+          "alt": "Dijkstra's algorithm visualization"
+        }
+      ]
     },
     {
       "slug": "frederickpek/ShockResponseSpectrum",
@@ -276,7 +354,9 @@
       "pushedAt": "2021-05-29T09:31:53Z",
       "createdAt": "2021-05-29T08:14:07Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/frederickcodes",
@@ -293,7 +373,9 @@
       "pushedAt": "2020-07-20T04:32:11Z",
       "createdAt": "2020-07-02T20:13:21Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     },
     {
       "slug": "frederickpek/BrainHack2020",
@@ -311,7 +393,9 @@
       "pushedAt": "2020-07-03T05:14:04Z",
       "createdAt": "2020-06-09T13:49:51Z",
       "isFork": false,
-      "featured": false
+      "featured": false,
+      "spotlight": false,
+      "screenshots": []
     }
   ]
 }
