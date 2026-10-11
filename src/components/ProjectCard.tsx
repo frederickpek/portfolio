@@ -41,7 +41,6 @@ export function ProjectCard({ project }: Props) {
             )}
           </div>
         </div>
-        <p className="mt-1 font-mono text-xs text-muted">{project.slug}</p>
       </header>
 
       <p className="line-clamp-4 flex-1 text-sm leading-relaxed text-muted">

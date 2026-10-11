@@ -2,7 +2,7 @@ name: Sync portfolio data
 
 on:
   schedule:
-    # Daily at 00:00 UTC
+    # Target 00:00 UTC (08:00 Singapore). GitHub may start the job later under load.
     - cron: '0 0 * * *'
   workflow_dispatch:
   push:
