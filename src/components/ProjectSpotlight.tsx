@@ -48,13 +48,13 @@ function StageImage({
 }
 
 export function ProjectSpotlight({ projects }: Props) {
-  const spotlight = useMemo(
-    () =>
-      projects.filter(
-        (p) => p.spotlight && p.screenshots.length > 0 && !p.error,
-      ),
-    [projects],
-  )
+  const spotlight = useMemo(() => {
+    const orderKey = (p: Project) =>
+      p.spotlightOrder ?? Number.POSITIVE_INFINITY
+    return projects
+      .filter((p) => p.spotlight && p.screenshots.length > 0 && !p.error)
+      .sort((a, b) => orderKey(a) - orderKey(b) || a.name.localeCompare(b.name))
+  }, [projects])
 
   const [projectIndex, setProjectIndex] = useState(0)
   const [imageIndex, setImageIndex] = useState(0)

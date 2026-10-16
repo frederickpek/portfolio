@@ -1,8 +1,27 @@
 {
+  "frederickpek/observable": {
+    "spotlight": true,
+    "spotlightOrder": 0,
+    "screenshots": [
+      {
+        "src": "showcase/observable/overview.png",
+        "alt": "Universe overview"
+      },
+      {
+        "src": "showcase/observable/aapl-surface.png",
+        "alt": "AAPL volatility surface"
+      },
+      {
+        "src": "showcase/observable/aapl-smile.png",
+        "alt": "AAPL volatility smile"
+      }
+    ]
+  },
   "frederickpek/trueshot": {
     "deployUrl": "https://frederickpek.github.io/trueshot",
     "featured": true,
     "spotlight": true,
+    "spotlightOrder": 1,
     "screenshots": [
       {
         "src": "showcase/trueshot/compare.png",
@@ -29,6 +48,7 @@
   "frederickpek/lace": {
     "deployUrl": "https://frederickpek.github.io/lace/",
     "spotlight": true,
+    "spotlightOrder": 2,
     "screenshots": [
       {
         "src": "showcase/lace/scanner.png",
@@ -39,6 +59,7 @@
   "frederickpek/moirai": {
     "deployUrl": "https://frederickpek.github.io/moirai/",
     "spotlight": true,
+    "spotlightOrder": 3,
     "screenshots": [
       {
         "src": "showcase/moirai/matches.png",
@@ -53,6 +74,7 @@
   "frederickpek/me4101a": {
     "deployUrl": "https://frederickpek.github.io/me4101a/",
     "spotlight": true,
+    "spotlightOrder": 4,
     "screenshots": [
       {
         "src": "showcase/me4101a/dfs.png",
