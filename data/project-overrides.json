@@ -4,16 +4,16 @@
     "spotlightOrder": 0,
     "screenshots": [
       {
-        "src": "showcase/observable/overview.png",
-        "alt": "Universe overview"
+        "src": "showcase/observable/aapl-smile.png",
+        "alt": "AAPL volatility smile"
       },
       {
         "src": "showcase/observable/aapl-surface.png",
         "alt": "AAPL volatility surface"
       },
       {
-        "src": "showcase/observable/aapl-smile.png",
-        "alt": "AAPL volatility smile"
+        "src": "showcase/observable/overview.png",
+        "alt": "Universe overview"
       }
     ]
   },
