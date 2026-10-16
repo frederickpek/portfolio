@@ -19,7 +19,6 @@
   },
   "frederickpek/trueshot": {
     "deployUrl": "https://frederickpek.github.io/trueshot",
-    "featured": true,
     "spotlight": true,
     "spotlightOrder": 1,
     "screenshots": [
