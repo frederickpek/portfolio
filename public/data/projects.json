@@ -1,37 +1,38 @@
 {
-  "fetchedAt": "2026-10-24T02:08:54.423Z",
+  "fetchedAt": "2026-10-24T09:06:35.876Z",
   "projects": [
     {
-      "slug": "frederickpek/observable",
-      "name": "observable",
+      "slug": "frederickpek/savor",
+      "name": "savor",
       "owner": "frederickpek",
-      "description": "Options analytics for US stocks - visualize implied-vol surfaces, smiles, and term structure after each US close.",
-      "url": "https://github.com/frederickpek/observable",
-      "deployUrl": "https://frederickpek.github.io/observable/",
-      "language": "TypeScript",
+      "description": "Restaurant discovery for Singapore. Browse over 18k places with Beli ratings, get weekly recommendations, see MICHELIN stars and Bib Gourmand, explore them on a map, and dig into score statistics.",
+      "url": "https://github.com/frederickpek/savor",
+      "deployUrl": "https://frederickpek.github.io/savor/",
+      "language": "Python",
       "topics": [
-        "options",
-        "volatility-smile",
-        "volatility-surface"
+        "maps",
+        "recommendation-system",
+        "restaurant",
+        "statistics"
       ],
-      "pushedAt": "2026-10-24T00:26:58Z",
-      "createdAt": "2026-10-06T09:32:19Z",
+      "pushedAt": "2026-10-24T08:55:17Z",
+      "createdAt": "2026-10-15T09:17:18Z",
       "isFork": false,
       "featured": false,
       "spotlight": true,
       "spotlightOrder": 0,
       "screenshots": [
         {
-          "src": "showcase/observable/aapl-smile.png",
-          "alt": "AAPL volatility smile"
+          "src": "showcase/savor/picks.png",
+          "alt": "Weekly recommendation picks"
         },
         {
-          "src": "showcase/observable/aapl-surface.png",
-          "alt": "AAPL volatility surface"
+          "src": "showcase/savor/michelin.png",
+          "alt": "MICHELIN stars and Bib Gourmand"
         },
         {
-          "src": "showcase/observable/overview.png",
-          "alt": "Universe overview"
+          "src": "showcase/savor/stats.png",
+          "alt": "Beli score statistics"
         }
       ]
     },
@@ -47,12 +48,12 @@
         "data-visualization",
         "probability-statistics"
       ],
-      "pushedAt": "2026-10-23T19:44:51Z",
+      "pushedAt": "2026-10-24T03:05:32Z",
       "createdAt": "2026-08-01T15:36:57Z",
       "isFork": false,
       "featured": false,
       "spotlight": true,
-      "spotlightOrder": 1,
+      "spotlightOrder": 2,
       "screenshots": [
         {
           "src": "showcase/trueshot/compare.png",
@@ -73,6 +74,40 @@
         {
           "src": "showcase/trueshot/upcoming.png",
           "alt": "Upcoming matches"
+        }
+      ]
+    },
+    {
+      "slug": "frederickpek/observable",
+      "name": "observable",
+      "owner": "frederickpek",
+      "description": "Options analytics for US stocks - visualize implied-vol surfaces, smiles, and term structure after each US close.",
+      "url": "https://github.com/frederickpek/observable",
+      "deployUrl": "https://frederickpek.github.io/observable/",
+      "language": "TypeScript",
+      "topics": [
+        "options",
+        "volatility-smile",
+        "volatility-surface"
+      ],
+      "pushedAt": "2026-10-24T00:26:58Z",
+      "createdAt": "2026-10-06T09:32:19Z",
+      "isFork": false,
+      "featured": false,
+      "spotlight": true,
+      "spotlightOrder": 1,
+      "screenshots": [
+        {
+          "src": "showcase/observable/aapl-smile.png",
+          "alt": "AAPL volatility smile"
+        },
+        {
+          "src": "showcase/observable/aapl-surface.png",
+          "alt": "AAPL volatility surface"
+        },
+        {
+          "src": "showcase/observable/overview.png",
+          "alt": "Universe overview"
         }
       ]
     },
@@ -115,7 +150,7 @@
       "isFork": false,
       "featured": false,
       "spotlight": true,
-      "spotlightOrder": 2,
+      "spotlightOrder": 3,
       "screenshots": [
         {
           "src": "showcase/lace/scanner.png",
@@ -140,7 +175,7 @@
       "isFork": false,
       "featured": false,
       "spotlight": true,
-      "spotlightOrder": 3,
+      "spotlightOrder": 4,
       "screenshots": [
         {
           "src": "showcase/moirai/matches.png",
@@ -351,7 +386,7 @@
       "isFork": false,
       "featured": false,
       "spotlight": true,
-      "spotlightOrder": 4,
+      "spotlightOrder": 5,
       "screenshots": [
         {
           "src": "showcase/me4101a/dfs.png",
