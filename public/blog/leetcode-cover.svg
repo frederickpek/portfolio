@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="LeetCode">
+  <rect width="1200" height="800" fill="#282828"/>
+  <text
+    x="600"
+    y="430"
+    text-anchor="middle"
+    font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif"
+    font-size="132"
+    font-weight="700"
+    letter-spacing="-2"
+  >
+    <tspan fill="#eff1f6">Leet</tspan><tspan fill="#ffa116">Code</tspan>
+  </text>
+</svg>
