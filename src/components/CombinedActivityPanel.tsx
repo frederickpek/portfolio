@@ -68,10 +68,24 @@ export function CombinedActivityPanel() {
     <section className="rounded-2xl border border-border bg-surface-raised/80 px-4 py-4 sm:px-5 sm:py-5">
       <div className="mb-3 flex flex-wrap items-end justify-between gap-2">
         <div>
-          <p className="font-mono text-xs uppercase tracking-widest">
-            <span className="text-[#56d364]">GitHub</span>
-            <span className="text-muted"> · </span>
-            <span className="text-leetcode">LeetCode</span>
+          <p className="flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-xs uppercase tracking-widest">
+            <span className="activity-platform-label">
+              <span
+                className="activity-platform-dot activity-platform-dot--github"
+                aria-hidden
+              />
+              <span>GitHub</span>
+            </span>
+            <span className="text-border" aria-hidden>
+              ·
+            </span>
+            <span className="activity-platform-label">
+              <span
+                className="activity-platform-dot activity-platform-dot--leetcode"
+                aria-hidden
+              />
+              <span>LeetCode</span>
+            </span>
           </p>
           <h3 className="text-lg font-semibold text-foreground">
             Combined Activity

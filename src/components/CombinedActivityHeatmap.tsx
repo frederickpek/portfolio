@@ -2,10 +2,10 @@ import { useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import type { CombinedDay } from '../lib/merge-calendars'
 import {
-  EMPTY_CELL,
-  GITHUB_CELL,
-  LEETCODE_CELL,
+  combinedCellBackground,
+  heatmapPalette,
 } from '../lib/heatmap-colors'
+import { useTheme } from '../hooks/useTheme'
 
 type Props = {
   days: CombinedDay[]
@@ -50,18 +50,6 @@ function buildWeekColumns(days: CombinedDay[]): CombinedDay[][] {
     weeks.push(days.slice(i, i + 7))
   }
   return weeks
-}
-
-function cellBackground(day: CombinedDay): string {
-  const gh = GITHUB_CELL[day.githubLevel]
-  const lc = LEETCODE_CELL[day.leetcodeLevel]
-  const hasGh = day.github > 0
-  const hasLc = day.leetcode > 0
-
-  if (!hasGh && !hasLc) return EMPTY_CELL
-  if (hasGh && !hasLc) return gh
-  if (hasLc && !hasGh) return lc
-  return `linear-gradient(135deg, ${lc} 50%, ${gh} 50%)`
 }
 
 function hasActivity(day: CombinedDay): boolean {
@@ -112,6 +100,8 @@ function HeatmapTooltip({ lines, x, y }: TooltipState) {
 }
 
 export function CombinedActivityHeatmap({ days, ariaLabel, summary }: Props) {
+  const { theme } = useTheme()
+  const palette = useMemo(() => heatmapPalette(theme), [theme])
   const weeks = useMemo(() => buildWeekColumns(days), [days])
   const monthLabels = useMemo(() => buildMonthLabels(weeks), [weeks])
   const [tooltip, setTooltip] = useState<TooltipState | null>(null)
@@ -232,7 +222,7 @@ export function CombinedActivityHeatmap({ days, ariaLabel, summary }: Props) {
                     style={{
                       gridColumn: wi + 1,
                       gridRow: row + 1,
-                      background: cellBackground(day),
+                      background: combinedCellBackground(day, palette),
                     }}
                     onMouseEnter={(e) => showTip(day, e.clientX, e.clientY)}
                     onMouseMove={(e) => showTip(day, e.clientX, e.clientY)}
