@@ -1,7 +1,26 @@
 {
-  "frederickpek/observable": {
+  "frederickpek/savor": {
+    "deployUrl": "https://frederickpek.github.io/savor/",
     "spotlight": true,
     "spotlightOrder": 0,
+    "screenshots": [
+      {
+        "src": "showcase/savor/picks.png",
+        "alt": "Weekly recommendation picks"
+      },
+      {
+        "src": "showcase/savor/michelin.png",
+        "alt": "MICHELIN stars and Bib Gourmand"
+      },
+      {
+        "src": "showcase/savor/stats.png",
+        "alt": "Beli score statistics"
+      }
+    ]
+  },
+  "frederickpek/observable": {
+    "spotlight": true,
+    "spotlightOrder": 1,
     "screenshots": [
       {
         "src": "showcase/observable/aapl-smile.png",
@@ -20,7 +39,7 @@
   "frederickpek/trueshot": {
     "deployUrl": "https://frederickpek.github.io/trueshot",
     "spotlight": true,
-    "spotlightOrder": 1,
+    "spotlightOrder": 2,
     "screenshots": [
       {
         "src": "showcase/trueshot/compare.png",
@@ -47,7 +66,7 @@
   "frederickpek/lace": {
     "deployUrl": "https://frederickpek.github.io/lace/",
     "spotlight": true,
-    "spotlightOrder": 2,
+    "spotlightOrder": 3,
     "screenshots": [
       {
         "src": "showcase/lace/scanner.png",
@@ -58,7 +77,7 @@
   "frederickpek/moirai": {
     "deployUrl": "https://frederickpek.github.io/moirai/",
     "spotlight": true,
-    "spotlightOrder": 3,
+    "spotlightOrder": 4,
     "screenshots": [
       {
         "src": "showcase/moirai/matches.png",
@@ -73,7 +92,7 @@
   "frederickpek/me4101a": {
     "deployUrl": "https://frederickpek.github.io/me4101a/",
     "spotlight": true,
-    "spotlightOrder": 4,
+    "spotlightOrder": 5,
     "screenshots": [
       {
         "src": "showcase/me4101a/dfs.png",

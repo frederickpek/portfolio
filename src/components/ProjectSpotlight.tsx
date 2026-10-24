@@ -35,7 +35,7 @@ function StageImage({
   className?: string
 }) {
   return (
-    <div className={`relative w-full shrink-0 ${STAGE_HEIGHT} bg-[#0d1117]`}>
+    <div className={`relative w-full shrink-0 ${STAGE_HEIGHT} bg-stage`}>
       <img
         src={src}
         alt={alt}
@@ -127,7 +127,7 @@ export function ProjectSpotlight({ projects }: Props) {
       : 'animate-spotlight-enter-left'
 
   const sidePeekClass =
-    'group absolute z-0 hidden w-[38%] max-w-[22rem] overflow-hidden rounded-xl border border-border/50 bg-[#0d1117] shadow-lg transition duration-300 ease-out sm:block md:w-[34%] md:max-w-md lg:max-w-lg [transform-style:preserve-3d]'
+    'group absolute z-0 hidden w-[38%] max-w-[22rem] overflow-hidden rounded-xl border border-border/50 bg-stage shadow-lg transition duration-300 ease-out sm:block md:w-[34%] md:max-w-md lg:max-w-lg [transform-style:preserve-3d]'
 
   return (
     <section
@@ -288,7 +288,7 @@ export function ProjectSpotlight({ projects }: Props) {
                 href={current.deployUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-lg border border-accent/40 px-3 py-1.5 text-xs font-medium text-accent transition hover:bg-accent/10"
+                className="btn-live-demo btn-live-demo-spotlight"
               >
                 Live demo
               </a>

@@ -14,6 +14,9 @@ export function ProjectGrid() {
         <h2 className="text-2xl font-semibold tracking-tight text-foreground">
           Projects
         </h2>
+        <p className="mt-1 text-sm text-muted">
+          Demos and highlights, then the full repo grid.
+        </p>
       </div>
 
       {error && (

@@ -79,7 +79,7 @@ export function ProjectCard({ project }: Props) {
               href={project.deployUrl}
               target="_blank"
               rel="noreferrer"
-              className="rounded-lg border border-accent/40 px-2.5 py-1 text-xs font-medium text-accent transition hover:bg-accent/10"
+              className="btn-live-demo"
             >
               Live demo
             </a>
