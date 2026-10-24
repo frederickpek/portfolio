@@ -6,6 +6,7 @@
   --color-surface: #0c0f14;
   --color-surface-raised: #121820;
   --color-surface-overlay: #1a222d;
+  --color-stage: #0d1117;
   --color-border: #2a3544;
   --color-muted: #8b9cb0;
   --color-foreground: #e8eef6;
@@ -13,11 +14,93 @@
   --color-accent-dim: #2dd4bf;
   --color-github: #39d353;
   --color-leetcode: #ffa116;
+  --color-github-dot: #39d353;
+  --color-leetcode-dot: #ffa116;
+}
+
+html.light {
+  --color-surface: #f3f5f8;
+  --color-surface-raised: #ffffff;
+  --color-surface-overlay: #e8ecf1;
+  --color-stage: #e2e8f0;
+  --color-border: #c5d0dc;
+  --color-muted: #5a6b7d;
+  --color-foreground: #0f1724;
+  --color-accent: #0d9488;
+  --color-accent-dim: #0f766e;
+  --color-github: #166534;
+  --color-leetcode: #c2410c;
+  --color-github-dot: #22c55e;
+  --color-leetcode-dot: #f97316;
+}
+
+@layer components {
+  .activity-platform-label {
+    @apply inline-flex items-center gap-1.5 text-muted;
+  }
+
+  .activity-platform-dot {
+    @apply h-1.5 w-1.5 shrink-0 rounded-full;
+  }
+
+  .activity-platform-dot--github {
+    background-color: var(--color-github-dot);
+  }
+
+  .activity-platform-dot--leetcode {
+    background-color: var(--color-leetcode-dot);
+  }
+
+  html.light .activity-platform-label {
+    @apply text-muted;
+  }
+
+  html.light .activity-platform-label span:last-child {
+    @apply text-foreground/75;
+  }
+
+  .btn-live-demo {
+    @apply rounded-lg border border-accent/40 px-2.5 py-1 text-xs font-medium text-accent transition hover:bg-accent/10;
+  }
+
+  html.light .btn-live-demo {
+    @apply border-accent bg-accent text-white shadow-sm hover:border-accent-dim hover:bg-accent-dim;
+  }
+
+  html.light .btn-live-demo-spotlight {
+    @apply border-accent bg-accent px-3 py-1.5 text-white shadow-sm hover:bg-accent-dim;
+  }
+
+  .prose-blog p {
+    @apply text-muted;
+  }
+
+  html.light .prose-blog p {
+    @apply text-foreground/80;
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.45s;
+  animation-timing-function: ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
 }
 
 @layer base {
   html {
     @apply scroll-smooth antialiased;
+    color-scheme: dark light;
+  }
+
+  html.light {
+    color-scheme: light;
   }
 
   body {
@@ -25,6 +108,14 @@
     background-image: radial-gradient(
       ellipse 80% 50% at 50% -20%,
       rgba(94, 234, 212, 0.08),
+      transparent
+    );
+  }
+
+  html.light body {
+    background-image: radial-gradient(
+      ellipse 80% 50% at 50% -20%,
+      rgba(13, 148, 136, 0.1),
       transparent
     );
   }
