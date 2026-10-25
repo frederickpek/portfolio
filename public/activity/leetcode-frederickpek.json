@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-24T09:07:31.876Z",
+  "fetchedAt": "2026-10-25T01:55:22.029Z",
   "username": "frederickpek",
-  "totalLastYear": 176,
+  "totalLastYear": 175,
   "solved": {
     "easy": 156,
     "medium": 240,
@@ -9,41 +9,6 @@
     "total": 435
   },
   "calendar": [
-    {
-      "date": "2025-10-19",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-20",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-21",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-22",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-23",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-24",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-25",
-      "count": 1,
-      "level": 1
-    },
     {
       "date": "2025-10-26",
       "count": 1,
@@ -1861,6 +1826,41 @@
     },
     {
       "date": "2026-10-24",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-25",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-26",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-27",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-28",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-29",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-30",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-31",
       "count": 0,
       "level": 0
     }
