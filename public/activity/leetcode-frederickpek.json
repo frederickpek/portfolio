@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-10-28T02:43:43.622Z",
+  "fetchedAt": "2026-10-29T03:03:24.611Z",
   "username": "frederickpek",
-  "totalLastYear": 174,
+  "totalLastYear": 173,
   "solved": {
     "easy": 156,
     "medium": 241,
@@ -26,8 +26,8 @@
     },
     {
       "date": "2025-10-29",
-      "count": 1,
-      "level": 1
+      "count": 0,
+      "level": 0
     },
     {
       "date": "2025-10-30",
