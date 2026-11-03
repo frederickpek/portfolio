@@ -1,6 +1,40 @@
 {
-  "fetchedAt": "2026-11-02T02:55:36.600Z",
+  "fetchedAt": "2026-11-03T04:12:57.626Z",
   "projects": [
+    {
+      "slug": "frederickpek/observable",
+      "name": "observable",
+      "owner": "frederickpek",
+      "description": "Options analytics for US stocks - visualize implied-vol surfaces, smiles, and term structure after each US close.",
+      "url": "https://github.com/frederickpek/observable",
+      "deployUrl": "https://frederickpek.github.io/observable/",
+      "language": "TypeScript",
+      "topics": [
+        "options",
+        "volatility-smile",
+        "volatility-surface"
+      ],
+      "pushedAt": "2026-11-03T03:26:55Z",
+      "createdAt": "2026-10-06T09:32:19Z",
+      "isFork": false,
+      "featured": false,
+      "spotlight": true,
+      "spotlightOrder": 1,
+      "screenshots": [
+        {
+          "src": "showcase/observable/aapl-smile.png",
+          "alt": "AAPL volatility smile"
+        },
+        {
+          "src": "showcase/observable/aapl-surface.png",
+          "alt": "AAPL volatility surface"
+        },
+        {
+          "src": "showcase/observable/overview.png",
+          "alt": "Universe overview"
+        }
+      ]
+    },
     {
       "slug": "frederickpek/savor",
       "name": "savor",
@@ -15,7 +49,7 @@
         "restaurant",
         "statistics"
       ],
-      "pushedAt": "2026-11-02T01:34:16Z",
+      "pushedAt": "2026-11-02T23:35:22Z",
       "createdAt": "2026-10-15T09:17:18Z",
       "isFork": false,
       "featured": false,
@@ -48,7 +82,7 @@
         "data-visualization",
         "probability-statistics"
       ],
-      "pushedAt": "2026-11-01T20:06:26Z",
+      "pushedAt": "2026-11-02T17:44:53Z",
       "createdAt": "2026-08-01T15:36:57Z",
       "isFork": false,
       "featured": false,
@@ -74,40 +108,6 @@
         {
           "src": "showcase/trueshot/upcoming.png",
           "alt": "Upcoming matches"
-        }
-      ]
-    },
-    {
-      "slug": "frederickpek/observable",
-      "name": "observable",
-      "owner": "frederickpek",
-      "description": "Options analytics for US stocks - visualize implied-vol surfaces, smiles, and term structure after each US close.",
-      "url": "https://github.com/frederickpek/observable",
-      "deployUrl": "https://frederickpek.github.io/observable/",
-      "language": "TypeScript",
-      "topics": [
-        "options",
-        "volatility-smile",
-        "volatility-surface"
-      ],
-      "pushedAt": "2026-10-31T01:29:38Z",
-      "createdAt": "2026-10-06T09:32:19Z",
-      "isFork": false,
-      "featured": false,
-      "spotlight": true,
-      "spotlightOrder": 1,
-      "screenshots": [
-        {
-          "src": "showcase/observable/aapl-smile.png",
-          "alt": "AAPL volatility smile"
-        },
-        {
-          "src": "showcase/observable/aapl-surface.png",
-          "alt": "AAPL volatility surface"
-        },
-        {
-          "src": "showcase/observable/overview.png",
-          "alt": "Universe overview"
         }
       ]
     },
