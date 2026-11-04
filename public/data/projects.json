@@ -1,40 +1,6 @@
 {
-  "fetchedAt": "2026-11-03T04:12:57.626Z",
+  "fetchedAt": "2026-11-04T03:30:50.225Z",
   "projects": [
-    {
-      "slug": "frederickpek/observable",
-      "name": "observable",
-      "owner": "frederickpek",
-      "description": "Options analytics for US stocks - visualize implied-vol surfaces, smiles, and term structure after each US close.",
-      "url": "https://github.com/frederickpek/observable",
-      "deployUrl": "https://frederickpek.github.io/observable/",
-      "language": "TypeScript",
-      "topics": [
-        "options",
-        "volatility-smile",
-        "volatility-surface"
-      ],
-      "pushedAt": "2026-11-03T03:26:55Z",
-      "createdAt": "2026-10-06T09:32:19Z",
-      "isFork": false,
-      "featured": false,
-      "spotlight": true,
-      "spotlightOrder": 1,
-      "screenshots": [
-        {
-          "src": "showcase/observable/aapl-smile.png",
-          "alt": "AAPL volatility smile"
-        },
-        {
-          "src": "showcase/observable/aapl-surface.png",
-          "alt": "AAPL volatility surface"
-        },
-        {
-          "src": "showcase/observable/overview.png",
-          "alt": "Universe overview"
-        }
-      ]
-    },
     {
       "slug": "frederickpek/savor",
       "name": "savor",
@@ -49,7 +15,7 @@
         "restaurant",
         "statistics"
       ],
-      "pushedAt": "2026-11-02T23:35:22Z",
+      "pushedAt": "2026-11-04T02:22:57Z",
       "createdAt": "2026-10-15T09:17:18Z",
       "isFork": false,
       "featured": false,
@@ -71,6 +37,40 @@
       ]
     },
     {
+      "slug": "frederickpek/observable",
+      "name": "observable",
+      "owner": "frederickpek",
+      "description": "Options analytics for US stocks - visualize implied-vol surfaces, smiles, and term structure after each US close.",
+      "url": "https://github.com/frederickpek/observable",
+      "deployUrl": "https://frederickpek.github.io/observable/",
+      "language": "TypeScript",
+      "topics": [
+        "options",
+        "volatility-smile",
+        "volatility-surface"
+      ],
+      "pushedAt": "2026-11-04T02:05:54Z",
+      "createdAt": "2026-10-06T09:32:19Z",
+      "isFork": false,
+      "featured": false,
+      "spotlight": true,
+      "spotlightOrder": 1,
+      "screenshots": [
+        {
+          "src": "showcase/observable/aapl-smile.png",
+          "alt": "AAPL volatility smile"
+        },
+        {
+          "src": "showcase/observable/aapl-surface.png",
+          "alt": "AAPL volatility surface"
+        },
+        {
+          "src": "showcase/observable/overview.png",
+          "alt": "Universe overview"
+        }
+      ]
+    },
+    {
       "slug": "frederickpek/trueshot",
       "name": "trueshot",
       "owner": "frederickpek",
@@ -82,7 +82,7 @@
         "data-visualization",
         "probability-statistics"
       ],
-      "pushedAt": "2026-11-02T17:44:53Z",
+      "pushedAt": "2026-11-03T21:28:22Z",
       "createdAt": "2026-08-01T15:36:57Z",
       "isFork": false,
       "featured": false,
