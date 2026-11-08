@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-07T03:25:02.521Z",
+  "fetchedAt": "2026-11-08T02:53:03.556Z",
   "projects": [
     {
       "slug": "frederickpek/savor",
@@ -15,7 +15,7 @@
         "restaurant",
         "statistics"
       ],
-      "pushedAt": "2026-11-07T01:59:36Z",
+      "pushedAt": "2026-11-08T01:31:25Z",
       "createdAt": "2026-10-15T09:17:18Z",
       "isFork": false,
       "featured": false,
@@ -33,6 +33,47 @@
         {
           "src": "showcase/savor/stats.png",
           "alt": "Beli score statistics"
+        }
+      ]
+    },
+    {
+      "slug": "frederickpek/trueshot",
+      "name": "trueshot",
+      "owner": "frederickpek",
+      "description": "LoL esports analytics platform with team comparisons, player profiles, Elo rankings, and match predictions.",
+      "url": "https://github.com/frederickpek/trueshot",
+      "deployUrl": "https://frederickpek.github.io/trueshot",
+      "language": "TypeScript",
+      "topics": [
+        "data-visualization",
+        "probability-statistics"
+      ],
+      "pushedAt": "2026-11-07T19:50:30Z",
+      "createdAt": "2026-08-01T15:36:57Z",
+      "isFork": false,
+      "featured": false,
+      "spotlight": true,
+      "spotlightOrder": 2,
+      "screenshots": [
+        {
+          "src": "showcase/trueshot/compare.png",
+          "alt": "Team comparison view"
+        },
+        {
+          "src": "showcase/trueshot/elo.png",
+          "alt": "Elo rankings"
+        },
+        {
+          "src": "showcase/trueshot/match.png",
+          "alt": "Match detail"
+        },
+        {
+          "src": "showcase/trueshot/player.png",
+          "alt": "Player profile"
+        },
+        {
+          "src": "showcase/trueshot/upcoming.png",
+          "alt": "Upcoming matches"
         }
       ]
     },
@@ -67,47 +108,6 @@
         {
           "src": "showcase/observable/overview.png",
           "alt": "Universe overview"
-        }
-      ]
-    },
-    {
-      "slug": "frederickpek/trueshot",
-      "name": "trueshot",
-      "owner": "frederickpek",
-      "description": "LoL esports analytics platform with team comparisons, player profiles, Elo rankings, and match predictions.",
-      "url": "https://github.com/frederickpek/trueshot",
-      "deployUrl": "https://frederickpek.github.io/trueshot",
-      "language": "TypeScript",
-      "topics": [
-        "data-visualization",
-        "probability-statistics"
-      ],
-      "pushedAt": "2026-11-06T21:15:14Z",
-      "createdAt": "2026-08-01T15:36:57Z",
-      "isFork": false,
-      "featured": false,
-      "spotlight": true,
-      "spotlightOrder": 2,
-      "screenshots": [
-        {
-          "src": "showcase/trueshot/compare.png",
-          "alt": "Team comparison view"
-        },
-        {
-          "src": "showcase/trueshot/elo.png",
-          "alt": "Elo rankings"
-        },
-        {
-          "src": "showcase/trueshot/match.png",
-          "alt": "Match detail"
-        },
-        {
-          "src": "showcase/trueshot/player.png",
-          "alt": "Player profile"
-        },
-        {
-          "src": "showcase/trueshot/upcoming.png",
-          "alt": "Upcoming matches"
         }
       ]
     },

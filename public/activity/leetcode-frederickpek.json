@@ -1,49 +1,14 @@
 {
-  "fetchedAt": "2026-11-07T03:25:02.780Z",
+  "fetchedAt": "2026-11-08T02:53:03.985Z",
   "username": "frederickpek",
-  "totalLastYear": 176,
+  "totalLastYear": 177,
   "solved": {
     "easy": 156,
-    "medium": 242,
+    "medium": 243,
     "hard": 39,
-    "total": 437
+    "total": 438
   },
   "calendar": [
-    {
-      "date": "2025-11-02",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-03",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-04",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-05",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-06",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-07",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-08",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-11-09",
       "count": 0,
@@ -1861,6 +1826,41 @@
     },
     {
       "date": "2026-11-07",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-08",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-09",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-10",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-11",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-12",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-14",
       "count": 0,
       "level": 0
     }
