@@ -1,41 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T02:53:03.556Z",
+  "fetchedAt": "2026-11-09T03:12:49.361Z",
   "projects": [
-    {
-      "slug": "frederickpek/savor",
-      "name": "savor",
-      "owner": "frederickpek",
-      "description": "Restaurant discovery for Singapore. Browse over 18k places with Beli ratings, get weekly recommendations, see MICHELIN stars and Bib Gourmand, explore them on a map, and dig into score statistics.",
-      "url": "https://github.com/frederickpek/savor",
-      "deployUrl": "https://frederickpek.github.io/savor/",
-      "language": "Python",
-      "topics": [
-        "maps",
-        "recommendation-system",
-        "restaurant",
-        "statistics"
-      ],
-      "pushedAt": "2026-11-08T01:31:25Z",
-      "createdAt": "2026-10-15T09:17:18Z",
-      "isFork": false,
-      "featured": false,
-      "spotlight": true,
-      "spotlightOrder": 0,
-      "screenshots": [
-        {
-          "src": "showcase/savor/picks.png",
-          "alt": "Weekly recommendation picks"
-        },
-        {
-          "src": "showcase/savor/michelin.png",
-          "alt": "MICHELIN stars and Bib Gourmand"
-        },
-        {
-          "src": "showcase/savor/stats.png",
-          "alt": "Beli score statistics"
-        }
-      ]
-    },
     {
       "slug": "frederickpek/trueshot",
       "name": "trueshot",
@@ -48,7 +13,7 @@
         "data-visualization",
         "probability-statistics"
       ],
-      "pushedAt": "2026-11-07T19:50:30Z",
+      "pushedAt": "2026-11-08T20:07:18Z",
       "createdAt": "2026-08-01T15:36:57Z",
       "isFork": false,
       "featured": false,
@@ -74,6 +39,41 @@
         {
           "src": "showcase/trueshot/upcoming.png",
           "alt": "Upcoming matches"
+        }
+      ]
+    },
+    {
+      "slug": "frederickpek/savor",
+      "name": "savor",
+      "owner": "frederickpek",
+      "description": "Restaurant discovery for Singapore. Browse over 18k places with Beli ratings, get weekly recommendations, see MICHELIN stars and Bib Gourmand, explore them on a map, and dig into score statistics.",
+      "url": "https://github.com/frederickpek/savor",
+      "deployUrl": "https://frederickpek.github.io/savor/",
+      "language": "Python",
+      "topics": [
+        "maps",
+        "recommendation-system",
+        "restaurant",
+        "statistics"
+      ],
+      "pushedAt": "2026-11-08T12:34:23Z",
+      "createdAt": "2026-10-15T09:17:18Z",
+      "isFork": false,
+      "featured": false,
+      "spotlight": true,
+      "spotlightOrder": 0,
+      "screenshots": [
+        {
+          "src": "showcase/savor/picks.png",
+          "alt": "Weekly recommendation picks"
+        },
+        {
+          "src": "showcase/savor/michelin.png",
+          "alt": "MICHELIN stars and Bib Gourmand"
+        },
+        {
+          "src": "showcase/savor/stats.png",
+          "alt": "Beli score statistics"
         }
       ]
     },
