@@ -1,6 +1,40 @@
 {
-  "fetchedAt": "2026-11-16T03:23:39.537Z",
+  "fetchedAt": "2026-11-17T05:23:57.060Z",
   "projects": [
+    {
+      "slug": "frederickpek/observable",
+      "name": "observable",
+      "owner": "frederickpek",
+      "description": "Options analytics for US stocks - visualize implied-vol surfaces, smiles, and term structure after each US close.",
+      "url": "https://github.com/frederickpek/observable",
+      "deployUrl": "https://frederickpek.github.io/observable/",
+      "language": "TypeScript",
+      "topics": [
+        "options",
+        "volatility-smile",
+        "volatility-surface"
+      ],
+      "pushedAt": "2026-11-17T04:26:20Z",
+      "createdAt": "2026-10-06T09:32:19Z",
+      "isFork": false,
+      "featured": false,
+      "spotlight": true,
+      "spotlightOrder": 1,
+      "screenshots": [
+        {
+          "src": "showcase/observable/aapl-smile.png",
+          "alt": "AAPL volatility smile"
+        },
+        {
+          "src": "showcase/observable/aapl-surface.png",
+          "alt": "AAPL volatility surface"
+        },
+        {
+          "src": "showcase/observable/overview.png",
+          "alt": "Universe overview"
+        }
+      ]
+    },
     {
       "slug": "frederickpek/trueshot",
       "name": "trueshot",
@@ -13,7 +47,7 @@
         "data-visualization",
         "probability-statistics"
       ],
-      "pushedAt": "2026-11-15T20:45:28Z",
+      "pushedAt": "2026-11-16T17:51:49Z",
       "createdAt": "2026-08-01T15:36:57Z",
       "isFork": false,
       "featured": false,
@@ -39,40 +73,6 @@
         {
           "src": "showcase/trueshot/upcoming.png",
           "alt": "Upcoming matches"
-        }
-      ]
-    },
-    {
-      "slug": "frederickpek/observable",
-      "name": "observable",
-      "owner": "frederickpek",
-      "description": "Options analytics for US stocks - visualize implied-vol surfaces, smiles, and term structure after each US close.",
-      "url": "https://github.com/frederickpek/observable",
-      "deployUrl": "https://frederickpek.github.io/observable/",
-      "language": "TypeScript",
-      "topics": [
-        "options",
-        "volatility-smile",
-        "volatility-surface"
-      ],
-      "pushedAt": "2026-11-14T02:11:56Z",
-      "createdAt": "2026-10-06T09:32:19Z",
-      "isFork": false,
-      "featured": false,
-      "spotlight": true,
-      "spotlightOrder": 1,
-      "screenshots": [
-        {
-          "src": "showcase/observable/aapl-smile.png",
-          "alt": "AAPL volatility smile"
-        },
-        {
-          "src": "showcase/observable/aapl-surface.png",
-          "alt": "AAPL volatility surface"
-        },
-        {
-          "src": "showcase/observable/overview.png",
-          "alt": "Universe overview"
         }
       ]
     },
