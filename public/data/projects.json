@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T04:50:50.260Z",
+  "fetchedAt": "2026-11-19T04:41:50.664Z",
   "projects": [
     {
       "slug": "frederickpek/observable",
@@ -14,7 +14,7 @@
         "volatility-smile",
         "volatility-surface"
       ],
-      "pushedAt": "2026-11-18T03:34:01Z",
+      "pushedAt": "2026-11-19T03:07:06Z",
       "createdAt": "2026-10-06T09:32:19Z",
       "isFork": false,
       "featured": false,
@@ -47,7 +47,7 @@
         "data-visualization",
         "probability-statistics"
       ],
-      "pushedAt": "2026-11-17T17:19:50Z",
+      "pushedAt": "2026-11-18T16:54:31Z",
       "createdAt": "2026-08-01T15:36:57Z",
       "isFork": false,
       "featured": false,
