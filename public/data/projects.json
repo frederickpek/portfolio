@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-27T05:32:17.296Z",
+  "fetchedAt": "2026-11-28T05:09:02.416Z",
   "projects": [
     {
       "slug": "frederickpek/trueshot",
@@ -13,7 +13,7 @@
         "data-visualization",
         "probability-statistics"
       ],
-      "pushedAt": "2026-11-26T18:04:47Z",
+      "pushedAt": "2026-11-27T17:48:12Z",
       "createdAt": "2026-08-01T15:36:57Z",
       "isFork": false,
       "featured": false,
